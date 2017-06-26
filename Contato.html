@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>Cássia Noivas</title>
+      <!--Import fonte de ícone do Google-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="_materialize/css/materialize.min.css" media="screen,projection"/>
+      <link rel=stylesheet href="_css/Index.css"/>
+      <link rel=stylesheet href="_css/Contato.css"/>
+      <!--Deixe o site do navegador saber otimizar o celular-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
+</head>    
+<body>            
+      <nav id=menu>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center">Cássia Noivas</a>            
+                        
+            <ul class="left hide-on-med-and-down">                
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+            
+            <ul id="slide-out" class="side-nav">
+                <li><div class="userView">
+                    <div class="background">
+                        <img id="fundo" src="_imagens/menu-fundo.jpg">
+                    </div>
+                        <a href="#!user"><img class="circle" src="_imagens/menu-perfil.png"></a>
+                        <a href="#!name"><span class="white-text name">Cássia Noivas</span></a>
+                        <a href="#!email"><span class="white-text email">Venha realizar o seu sonho de se casar</span></a>
+                  </div></li>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Contato.html">Contato</a></li>                
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+        
+    <section>
+        <h3>Venha nos conhecer</h3>                                           
+        <p id="endereco">
+            <i class="material-icons">location_on</i> 
+            Rua Dom Antonio de Melo 47, atravessa da São Caetano                        
+        </p>
+        <p id="endereco">
+            <i class="material-icons">phone</i>            
+        </p>
+        <p id="endereco">
+            <i class="material-icons">smartphone</i>            
+        </p>
+        <p id="endereco">
+            <i class="material-icons">email</i>
+        </p>
+        
+        <h5>Localização</h5>
+        <iframe id="mapa" src="Mapa.html" name="janela"></iframe>
+    </section>                    
+    <footer id="rodape" class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Cássia Noivas</h5>
+                <p class="grey-text text-lighten-4">Feita para realizar seu maior sonho de se casar</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Midias Socias</h5>
+                <ul>
+                  <li>
+                      <a class="grey-text text-lighten-3" href="https://pt-br.facebook.com/" target="_blank">
+                          <img src="_imagens/facebook.png"></a>
+                  </li>
+                  <li>
+                      <a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=pt-br" target="_blank">
+                          <img src="_imagens/instagram.png"></a>
+                  </li>                
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Copyright Desenvolvido por Alexander Oliveira
+            <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/alexander-pereira-oliveira-5b2013104/" target="_blank"><img src="_imagens/linkedin.png"></a>
+            </div>
+          </div>
+        </footer>
+            
+    
+<!--Scripts-->
+    <script src="_javascript/menu.js"></script>    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="_javascript/jquery-3.2.1.min.js"></script>
+    <script src="_materialize/js/materialize.min.js"></script>
+    
+<!--Script do Inicializar o Menu-->
+    <script>
+        $(document).ready(function() { })
+        $(".button-collapse").sideNav();
+    </script>
+    
+</body>
+</html>

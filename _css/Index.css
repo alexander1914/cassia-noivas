@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+
+h3 {
+    font-family: 'Spectral', serif;
+}
+p#texto {
+    text-align: justify;
+    text-indent: 50px;
+}
+p#endereco{
+    float: center;    
+}
+iframe#youtube {
+    position: relative;
+    left: auto;
+}
+nav#menu {
+    background-color: #EE82EE;
+}
+footer#rodape{
+    background-color: #EE82EE;
+}
